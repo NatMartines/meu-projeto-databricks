@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/nathalia.martines5@gmail.com/meu-projeto-databricks/BRONZE DENGUE"
+				},
+				"linkedServiceName": {
+					"referenceName": "meuprojeto_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "bronze-municipio",
@@ -26,7 +33,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/nathalia.martines5@gmail.com/meu-projeto-databricks/BRONZE MUNICIPIO"
+				},
+				"linkedServiceName": {
+					"referenceName": "meuprojeto_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "silver-dengue",
@@ -46,7 +60,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/nathalia.martines5@gmail.com/meu-projeto-databricks/SILVER DENGUE"
+				},
+				"linkedServiceName": {
+					"referenceName": "meuprojeto_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "silver-municipio",
@@ -66,7 +87,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/nathalia.martines5@gmail.com/meu-projeto-databricks/SILVER MUNICIPIO"
+				},
+				"linkedServiceName": {
+					"referenceName": "meuprojeto_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "gold",
@@ -92,7 +120,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/nathalia.martines5@gmail.com/meu-projeto-databricks/GOLD"
+				},
+				"linkedServiceName": {
+					"referenceName": "meuprojeto_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
